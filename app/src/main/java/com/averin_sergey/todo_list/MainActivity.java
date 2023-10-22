@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
         showNotes();
     }
 
-    private void initViews() {
+    private void initViews() { //
         recyclerViewNotes = findViewById(R.id.recyclerViewNotes);
         buttonAddNote = findViewById(R.id.buttonAddNote);
     }
